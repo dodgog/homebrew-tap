@@ -1,14 +1,14 @@
 class Sqs < Formula
   desc "Reorder lists from the terminal"
   homepage "https://github.com/dodgog/sqs"
-  version "0.3.3"
+  version "0.3.4"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/dodgog/sqs/releases/download/v0.3.3/sqs-aarch64-apple-darwin.tar.xz"
-    sha256 "cd059bd6ab33ba4d866481250f6ff92a4bd0af3e200c1a50e63b99b7ef1023d5"
+    url "https://github.com/dodgog/sqs/releases/download/v0.3.4/sqs-aarch64-apple-darwin.tar.xz"
+    sha256 "1346bf2845f309eadd92106c7bcbc6f30c8ad58e337e6d6ff4a8ff4258041cb0"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dodgog/sqs/releases/download/v0.3.3/sqs-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "923d7d93346478d5de809ec9d9679531329326d5fb600a2761304a98cc192bf0"
+    url "https://github.com/dodgog/sqs/releases/download/v0.3.4/sqs-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "542103179c537f335e7241a874dc36c0f92888de893176b16585d5bb1754d4b6"
   end
 
   BINARY_ALIASES = {
